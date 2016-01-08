@@ -58,29 +58,7 @@ describe('@datagica/parse-names', () => {
       output: []
     }, {
       input: "media",
-
-      // FIXME this is actually not good, because setting the fuzzy parameter to 0 should have prevent this
-      output: [{
-        "ngram": "media",
-        "value": {
-          "name": "medea",
-          "gender": ["f"],
-          "language": ["greek mythology (latinized)"],
-          "frequency": 0.1
-        },
-        "len": 1,
-        "errorLengthRatio": 0.2,
-        "position": {
-          "substring": {
-            "begin": 0,
-            "end": 5
-          },
-          "fullstring": {
-            "begin": 0,
-            "end": 5
-          }
-        }
-      }]
+      output: []
     }, {
       input: "grid",
       output: []
@@ -175,30 +153,7 @@ describe('@datagica/parse-names', () => {
 
     }, {
       input: "les media",
-      output:
-
-        [{
-        "ngram": "media",
-        "value": {
-          "name": "medea",
-          "gender": ["f"],
-          "language": ["greek mythology (latinized)"],
-          "frequency": 0.1
-        },
-        "len": 1,
-        "errorLengthRatio": 0.2,
-        "position": {
-          "substring": {
-            "begin": 4,
-            "end": 9
-          },
-          "fullstring": {
-            "begin": 4,
-            "end": 9
-          }
-        }
-      }]
-
+      output: []
     }, {
       input: "in grid",
       output: []
