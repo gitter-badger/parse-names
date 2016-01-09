@@ -18,7 +18,7 @@
   },
   "dependencies": {
     "babel-runtime": "6.0.14",
-    "@datagica/moonshine": "git+ssh://git@bitbucket.org/datagica/moonshine.git"
+    "@datagica/parse-entities": "git+ssh://git@github.com/datagica/parse-entities.git"
   },
   "devDependencies": {
     "babel": "6.0.15",

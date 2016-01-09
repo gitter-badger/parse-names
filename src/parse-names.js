@@ -1,8 +1,8 @@
-import { EntityParser } from '@datagica/moonshine';
+import ParseEntities from '@datagica/parse-entities';
 
 const defaultDatabase = require('./database');
 
-class ParseNames extends EntityParser {
+class ParseNames extends ParseEntities {
   constructor(opts = {
     toIndex: 'name',
     overlapping: false,
